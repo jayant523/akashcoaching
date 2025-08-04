@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form in table</title>
+</head>
+<body>
+   <link rel="stylesheet" href="style.css">
+   <form>
+   <table border="1">
+    <thead>
+       <th colspan="2" style="text-align: center;">Admission Form</th>
+    </thead>
+    <tr>
+       <td id="name">Name of the student:</td>
+       <td><input type="text" id="name" placeholder="Enter Your Name"></td>
+    </tr>
+    <tr>
+       <td id="Class">Class:</td>
+       <td><input type="number" id="Class" placeholder="Class"></td>
+    </tr>
+    <tr>
+       <td id="age">Age:</td>
+       <td><input type="number" type="range" id="age" placeholder="Age"></td>
+    </tr>
+    <tr>
+       <td id="mob">Enter Your Mobile no.</td>
+       <td><input type="month" id="mob" placeholder="Enter Your mobile no."></td>
+    </tr>
+    <tr>
+       <td id="school">Name of School:</td>
+       <td><input type="text" id="school" placeholder="Enter Your School name"></td>
+    </tr>          
+    <tr>
+       <td id="gender">Gender:</td>
+       <td><input type="radio" name="gender" id="gender">
+       <label for="gender"  >Male</label>
+       <input type="radio" name="gender" id="gender">
+       <label for="gender" >Female</label></td>
+    </tr>
+    <tr>
+       <td id="fav">
+          Choose Your Favourite:
+       </td>
+       <td><select name="" id="fav">
+         <option value="fav" >Select</option> 
+         <option value="fav">Mango</option>
+          <option value="fav">Litchi</option>
+          <option value="fav">Banana</option>
+       </select></td>
+    </tr>
+     <tr> <td colspan="2" ><input type="submit" id="submit" value="Submit With the Following Details"></td></tr>
+   </table>
+</form>
+</body>
+</html>
